@@ -18,4 +18,14 @@ Execução:
 __version__ = "0.0.1"
 __author__ = "Bruno Rocha"
 __license__ = "Unlicense"
-print("Hello, World!")
+
+current_language = "en_US"
+
+msg = "Hello, World!"
+
+if current_language = "pt_BR":
+    msg = "Olá Mundo!"
+elif current_language = "it_IT"
+    msg = "Ciao Mondo!"
+
+print(msg)
