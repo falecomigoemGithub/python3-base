@@ -19,7 +19,9 @@ __version__ = "0.0.1"
 __author__ = "Bruno Rocha"
 __license__ = "Unlicense"
 
-current_language = "en_US"
+import os
+
+current_language = os.gentenv("LAMG")
 
 msg = "Hello, World!"
 
