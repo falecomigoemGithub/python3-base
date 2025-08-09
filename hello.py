@@ -21,13 +21,13 @@ __license__ = "Unlicense"
 
 import os
 
-current_language = os.gentenv("LAMG")
+current_language = os.getenv("LANG")
 
 msg = "Hello, World!"
 
-if current_language = "pt_BR":
+if current_language == "pt_BR":
     msg = "Olá Mundo!"
-elif current_language = "it_IT"
+elif current_language == "it_IT":
     msg = "Ciao Mondo!"
 
 print(msg)
